@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet"
+          type="text/css"
+          href="css/styles.css">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <header>
+        <h1>Local Weather</h1>
+    </header>
+    <div class="app">
+        <div class="flex">
+            <section>
+                <span class="loaded">Location:</span>
+                <span class="city"></span>
+            </section>
+            <span class="load">Calculating your current weather . . .</span>
+            <section>
+                <span class="loaded">Current Temperature:</span>
+                <span class="temp"></span>
+                <span class="loaded">degrees</span>
+                <span class="degree">F</span>
+            </section>
+            <div class="flex">
+                <span class="description"></span>
+                <span>
+                    <img class="weatherIcon"
+                         src="http://ubmsubs.ubm.com/Assets/loading.gif"
+                         height="50"
+                         width="50">
+                </span>
+            </div>
+        </div>
+
+        <button class="loaded"
+                id="toggle">C/F</button>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

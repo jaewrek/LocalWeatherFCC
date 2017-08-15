@@ -1,0 +1,30 @@
+html, body{
+	height: 100%;
+	background-color: #d3d3d3;
+}	
+body{
+	margin: 0;
+}	
+.app, h1, .flex{
+	margin: 10px 400px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.three-col {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+}
+.flex > span {
+	flex: 1;
+}
+div > div {
+	align-items: center;
+}
+.loaded, .degree{
+	display: none;
+}
